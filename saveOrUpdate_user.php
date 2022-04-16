@@ -52,7 +52,10 @@ include('header.php');
 					<textarea placeholder="Nhập nội dung ngắn" name="scontent"></textarea>
 					<textarea placeholder="Nhập đầy đủ nội dung" name="lcontent"></textarea>
 									<script>
-                                    CKEDITOR.replace('lcontent');
+                                    CKEDITOR.replace('lcontent',{
+	filebrowserBrowseUrl: 'public/ckfinder/ckfinder.html',
+	filebrowserUploadUrl: 'public/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files'
+});
                                     </script>
 					<input type="date" name="date"/>
 					<br/>

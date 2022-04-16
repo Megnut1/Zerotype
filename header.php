@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/header.css">
     <script src="public/ckeditor/ckeditor.js"></script>
+    <script src="public/ckfinder/ckfinder.js"></script>
 </head>
 <body>
     <div id="header">
