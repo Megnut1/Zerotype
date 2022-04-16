@@ -294,7 +294,7 @@ Class Data{
 		}
 		public function select_covid_blog(){
 			global $conn;
-			$sql = "select * from blog where status_blog=1 && category_id=37";
+			$sql = "select * from blog where status_blog=1 && category_id=8";
 			$run = mysqli_query($conn,$sql);
 			return $run;
 		}

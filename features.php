@@ -42,7 +42,7 @@ include('header.php');
 											</div>
 											<div class="title-authorf">
 												<div class="titlef">
-													<h2>'.$row["title"].'</h2>
+													<h4>'.$row["title"].'</h4>
 												</div>
 												<div class="authorf">
 													<span>Tác giả: '.$row["author"].'</span>

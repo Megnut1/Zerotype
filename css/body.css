@@ -39,7 +39,8 @@
     margin: 0;
     display: block;
     width: 1000px;
-    height: 70px;
+    height: 100px;
+    padding-top: 20px;
 }
 .newtimef .datef {
     width: 70px;
@@ -115,6 +116,9 @@
 .title-author{
     padding-top: 10px;
     padding-left: 10px;
+}
+.title-author .title{
+    width: 535px;
 }
 .infomation{
     margin-top: 10px;

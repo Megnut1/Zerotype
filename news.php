@@ -56,7 +56,7 @@ include('header.php');
 										</div>
 										<div class="title-author">
 											<div class="title">
-												<h3>'.$row["title"].'</h3>
+												<h4>'.$row["title"].'</h4>
 											</div>
 											<div class="author">
 												<span>Tác giả: '.$row["author"].'</span>

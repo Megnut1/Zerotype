@@ -15,7 +15,6 @@ $get_Data = new Data();
 	<link rel="stylesheet" href="css/text.css" type="text/css">
 	<link rel="stylesheet" href="css/header.css" type="text/css">
 	<link rel="stylesheet" href="css/body.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -39,7 +38,7 @@ include('header.php');
                             </div>
                             <div class="title-author-post">
                                 <div class="title-post">
-                                    <h1>'.$listBL["title"].'</h1>
+                                    <h4>'.$listBL["title"].'</h4>
                                 </div>
                                 <div class="author-post">
                                     <span class="author">Tác giả: '.$listBL["author"].'</span>
